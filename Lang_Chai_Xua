@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bảo tàng Làng Chài Xưa - Khám phá 300 năm lịch sử</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.site-header {
+  background-color: #005f73;
+  color: #edf6f9;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.site-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.site-header .tagline {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.intro {
+  padding: 1.8rem 2rem;
+  background: #e0fbfc;
+  border-left: 5px solid #0a9396;
+  margin: 1rem 2rem;
+}
+
+.intro h2 {
+  margin-bottom: 0.6rem;
+  color: #0a9396;
+}
+
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  padding: 1rem 2rem;
+}
+
+.card {
+  background: #94d2bd;
+  padding: 1rem;
+  border-radius: 8px;
+  color: #001219;
+  transition: transform 0.25s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.info {
+  background: #ee9b00;
+  color: #fff;
+  padding: 1.8rem 2rem;
+  margin: 1rem 2rem;
+  border-radius: 6px;
+}
+
+.info h2 {
+  margin-bottom: 0.8rem;
+}
+
+.info ul {
+  list-style: none;
+  line-height: 1.8;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 1rem;
+  background: #005f73;
+  color: #edf6f9;
+  font-size: 0.9rem;
+}
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <h1>Bảo tàng Làng Chài Xưa</h1>
+  <p class="tagline">Trải nghiệm văn hóa và nghề làm nước mắm truyền thống</p>
+</header>
+
+<section class="intro">
+  <h2>Giới thiệu</h2>
+  <p>
+    Bảo tàng Làng Chài Xưa là điểm đến độc đáo tại Phú Hài – Phan Thiết, tái hiện hơn 300 năm văn hóa làng chài và nghề làm nước mắm truyền thống Việt Nam.
+  </p>
+</section>
+
+<section class="highlights">
+  <div class="card">
+    <h3>Lịch sử 300 năm</h3>
+    <p>
+      Khám phá hành trình từ thời Chăm Pa đến thời Pháp thuộc và những thập niên 40–60 của làng chài Phan Thiết.
+    </p>
+  </div>
+  <div class="card">
+    <h3>Không gian trưng bày</h3>
+    <p>
+      Với 14 khu chủ đề tái hiện nghề làm nước mắm, phục dựng phố cổ và trải nghiệm tương tác.
+    </p>
+  </div>
+  <div class="card">
+    <h3>Trải nghiệm thực tế</h3>
+    <p>
+      Hoá thân thành ngư dân, thử phân biệt nước mắm ngon và tham gia hoạt động vui chơi.
+    </p>
+  </div>
+</section>
+
+<section class="info">
+  <h2>Thông tin tham quan</h2>
+  <ul>
+    <li>📍 Địa chỉ: 360 Nguyễn Thông, Phú Hài, Phan Thiết, Bình Thuận. :contentReference[oaicite:5]{index=5}</li>
+    <li>⏰ Giờ mở cửa: 09:00 – 17:00 mỗi ngày.</li>
+    <li>🎟️ Giá vé: ~100.000đ/người lớn.</li>
+    <li>📞 Hotline: 090 1111 666.</li>
+  </ul>
+</section>
+
+<footer class="site-footer">
+  <p>&copy; 2026 Bảo tàng Làng Chài Xưa | Thiết kế bởi <b>Phan Vũ Trung Nghĩa 12A2</b></p>
+</footer>
+
+</body>
+</html>
